@@ -17,3 +17,4 @@ class page extends Controller
     		return redirect('index'); 
     }
 }
+

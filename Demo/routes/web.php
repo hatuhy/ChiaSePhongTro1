@@ -15,9 +15,6 @@ Route::get('dangnhap', 'page@getdangnhap');
 
 Route::post('dangnhap','page@postdangnhap');
 
-Route::get('dnthanhcong',function(){
-	return view('thanhcong');
-});
 
 Route::get('index',function(){
 	return view('user.home');

@@ -1687,3 +1687,60 @@ h1, h2, h3, h4, h5,
   .range-output:after {
     content: "Km";
     font-weight: normal; }
+
+.header_area {
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+    height: 120px;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    -webkit-transition-duration: 700ms;
+    transition-duration: 700ms;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+    padding: 0 30px;
+}
+.navbar-brand {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+    margin-right: 70px;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 15px;
+    padding-left: 15px;
+    color: #fff;
+    font-size: 15px;
+}
+.navbar-nav .nav-link:hover, .navbar-nav .nav-item.active .nav-link {
+    color: #7643ea;
+}
+.navbar-nav .nav-link:hover, .navbar-nav .nav-item.active .nav-link {
+    color: #7643ea;
+}
+.dropdown-item:hover {
+    background-color: #7643ea;
+    color: #fff;
+}
+.navbar-nav .nav-item.active .nav-link{
+        font-weight: 600;
+}
+.dropdown-toggle:after{
+  display: none;
+}
+.dorne-signin-btn a{
+  color: #fff;
+}
+.sticky{
+    background-color: rgba(14, 2, 35, 0.9);
+    height: 80px;
+    z-index: 9999;
+    border-bottom: 1px solid transparent;
+}
+.form-search-wrap {
+    background: #fff;
+    border-radius: 30px;
+    -webkit-box-shadow: 0 2px 30px -5px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 30px -5px rgba(0, 0, 0, 0.2);
+}

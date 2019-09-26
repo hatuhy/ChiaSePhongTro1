@@ -255,4 +255,12 @@ jQuery(document).ready(function($) {
 	siteRangeSlider();
 	
 
+	 $(window).scroll(function () {
+        if ($(window).scrollTop() >= 50) {
+            $('.header_area').addClass('sticky');
+        } else {
+            $('.header_area').removeClass('sticky');
+        }
+    });
+
 });
